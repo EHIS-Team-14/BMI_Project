@@ -1,0 +1,7 @@
+w=int(input("Enter your weight in kg:"))
+h=float(input("Enter your height in m:"))
+b=w/(h*h)
+if (b>25):
+	print("you are not fit,Exercise please")
+else:
+	print("you are fit")
